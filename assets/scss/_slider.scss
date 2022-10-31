@@ -1,0 +1,113 @@
+/*--------------------------------------------------------------
+# slider-sec
+--------------------------------------------------------------*/
+.slider-sec {
+	padding: 60px 0px;
+  @media only screen and (max-width: 767px) {
+   padding: 40px 0px;
+  }
+	.first-slider {
+		position: relative;
+	}
+	.swiper-slide {
+		height: auto;
+	}
+	.books-single {
+    display: block;
+    background-color: #eceef0;
+		width: 100%;
+		height: 100%;
+    text-decoration: none;
+		.book-img {
+			width: 100%;
+			height: 300px;
+			object-fit: contain;
+			background-color: #eceef0;
+			padding: 15px;
+      @media only screen and (max-width: 1399px) {
+       height: 250px;
+      }
+      @media only screen and (max-width: 1199px) {
+       height: 230px;
+      }
+      @media only screen and (max-width: 991px) {
+       height: 200px;
+      }
+			@media only screen and (max-width: 767px) {
+				height: 180px;
+        padding-top: 8px;
+        padding-bottom: 5px;
+			}
+			@media only screen and (max-width: 482px) {
+				height: 150px;
+			}
+		}
+	}
+	.book-text {
+		padding: 15px 15px 15px 15px;
+		text-align: center;
+		h2 {
+			font-size: 16px;
+			line-height: 1.2;
+			font-weight: 500;
+			color: $bg-black;
+			margin-bottom: 6px;
+      @media only screen and (max-width: 482px) {
+       font-size: 15px;
+      }
+		}
+		p {
+			font-size: 15px;
+      color: $primary-color;
+		}
+
+	}
+
+
+}
+
+/*--------------------------------------------------------------
+# swiper-btns
+--------------------------------------------------------------*/
+.swiper-btns {
+
+	.btn-cm {
+
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		width: 33px;
+		height: 33px;
+		background-color: $bg-black;
+		border-radius: 0;
+		color: $primary-color;
+		font-size: 22px;
+		outline: none;
+    z-index: 9;
+    @media only screen and (max-width: 482px) {
+     width: 25px;
+     height: 25px;
+     font-size: 18px;
+    }
+		&.btn-left {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+			i {
+				position: relative;
+				right: 1px;
+			}
+		}
+		&.btn-right {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+			i {
+				position: relative;
+				left: 1px;
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------
+# sec-t
+--------------------------------------------------------------*/
+
+.sec-t{
+  text-align: center;
+  h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 44px;
+    @media only screen and (max-width: 1399px) {
+     margin-bottom: 35px;
+     font-size: 38px;
+    }
+    @media only screen and (max-width: 1199px) {
+     margin-bottom: 32px;
+     font-size: 36px;
+    }
+    @media only screen and (max-width: 991px) {
+     font-size: 32px;
+    }
+    @media only screen and (max-width: 767px) {
+    font-size: 30px;
+    margin-bottom: 30px;
+    }
+    @media only screen and (max-width: 482px) {
+     font-size: 26px;
+    }
+span{
+  font-weight: 400;
+}
+  }
+}
+
+/*--------------------------------------------------------------
+# feature
+--------------------------------------------------------------*/
+.feature{
+  background-color: $secondary-color;
+  padding: 70px 0px;
+  .mason-img{
+    text-align: center;
+  }
+  .book-text{
+    padding-top: 6px;
+    h2{
+      font-weight: 500;
+      font-size: 16px;
+    }
+    p{
+      font-size: 15px;
+      color: $primary-color;
+    }
+  }
+}

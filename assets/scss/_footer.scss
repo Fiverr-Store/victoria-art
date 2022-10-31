@@ -1,0 +1,117 @@
+/*--------------------------------------------------------------
+# main-footer
+--------------------------------------------------------------*/
+.footer-top{
+  background-color: $bg-black;
+
+  .footer-widget{
+    h3{
+      font-size: 18px;
+      color: $bg-white;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #4a4a4a;
+      margin-bottom: 24px;
+      @media only screen and (max-width: 767px) {
+       font-size: 17px;
+       padding-bottom: 12px;
+       margin-bottom: 16px;
+      }
+    }
+    p{
+      &:not(:last-child) {
+      margin-bottom: 4px;
+      }
+      font-size: 14px;
+      color: #fff;
+      opacity: .9;
+      a{
+        text-decoration: none;
+        display: inline-block;
+        color: #fff;
+        transition: all .2s ease-in;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+
+.ft-br{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #4a4a4a;
+}
+.footer-botom{
+  padding: 18px 0px;
+}
+
+.form-mail{
+  position: relative;
+  .form-control{
+    height: 44px;
+    border: 0;
+    background: #fff;
+    border-radius: 0;
+    font-size: 15px;
+  }
+  .btn-submit{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    background-color: #fff;
+    color: $title-color;
+    border: 0;
+    border-radius: 0;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 1px solid #d4d4d4;
+    padding: 0px 22px;
+
+  }
+}
+.main-footer{
+  background-color: $bg-black;
+  .footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media only screen and (max-width: 767px) {
+     display: block;
+     text-align: center;
+    }
+  }
+  .legal{
+    p{
+      font-size: 14px;
+      color: $bg-white;
+      @media only screen and (max-width: 767px) {
+       font-size: 14px;
+      }
+    }
+  }
+  .social{
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 767px) {
+     justify-content: center;
+     margin-top: 6px;
+    }
+    p{
+      font-size: 15px;
+      color: $secondary-color;
+      margin-right: 7px;
+      @media only screen and (max-width: 767px) {
+       font-size: 14px;
+      }
+    }
+    img{
+      height: 30px;
+    }
+  }
+}

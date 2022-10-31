@@ -381,6 +381,11 @@ h6 a {
   background-color: #FFF0C4;
   padding: 70px 0px;
 }
+@media only screen and (max-width: 767px) {
+  .feature {
+    padding: 40px 0px;
+  }
+}
 .feature .mason-img {
   text-align: center;
 }

@@ -2,57 +2,75 @@
 # sec-t
 --------------------------------------------------------------*/
 
-.sec-t{
-  text-align: center;
-  h2{
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 44px;
-    @media only screen and (max-width: 1399px) {
-     margin-bottom: 35px;
-     font-size: 38px;
-    }
-    @media only screen and (max-width: 1199px) {
-     margin-bottom: 32px;
-     font-size: 36px;
-    }
-    @media only screen and (max-width: 991px) {
-     font-size: 32px;
-    }
-    @media only screen and (max-width: 767px) {
-    font-size: 30px;
-    margin-bottom: 30px;
-    }
-    @media only screen and (max-width: 482px) {
-     font-size: 26px;
-    }
-span{
-  font-weight: 400;
-}
-  }
+.sec-t {
+	text-align: center;
+	h2 {
+		font-size: 40px;
+		font-weight: 700;
+		margin-bottom: 44px;
+		@media only screen and (max-width: 1399px) {
+			margin-bottom: 35px;
+			font-size: 38px;
+		}
+		@media only screen and (max-width: 1199px) {
+			margin-bottom: 32px;
+			font-size: 36px;
+		}
+		@media only screen and (max-width: 991px) {
+			font-size: 32px;
+		}
+		@media only screen and (max-width: 767px) {
+			font-size: 30px;
+			margin-bottom: 30px;
+		}
+		@media only screen and (max-width: 482px) {
+			font-size: 26px;
+		}
+		span {
+			font-weight: 400;
+		}
+	}
 }
 
 /*--------------------------------------------------------------
 # feature
 --------------------------------------------------------------*/
-.feature{
-  background-color: $secondary-color;
-  padding: 70px 0px;
-  @media only screen and (max-width: 767px) {
-   padding: 40px 0px;
-  }
-  .mason-img{
-    text-align: center;
-  }
-  .book-text{
-    padding-top: 6px;
-    h2{
-      font-weight: 500;
-      font-size: 16px;
-    }
-    p{
-      font-size: 15px;
-      color: $primary-color;
-    }
-  }
+.feature {
+	background-color: $secondary-color;
+	padding: 70px 0px;
+	@media only screen and (max-width: 767px) {
+		padding: 40px 0px;
+	}
+	.mason-img {
+		text-align: center;
+		border: 1px solid darken($color: $secondary-color, $amount: 5%);
+		padding: 15px 15px;
+		box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+		img {
+			width: 100%;
+			height: 300px;
+			object-fit: contain;
+			margin-bottom: 6px;
+			@media only screen and (max-width: 1199px) {
+				height: 280px;
+			}
+			@media only screen and (max-width: 991px) {
+				height: 260px;
+			}
+			@media only screen and (max-width: 767px) {
+				height: 240px;
+			}
+		}
+	}
+	.book-text {
+		padding-top: 6px;
+		h2 {
+			font-weight: 500;
+			font-size: 16px;
+		}
+		p {
+			font-size: 15px;
+			color: $primary-color;
+		}
+	}
 }

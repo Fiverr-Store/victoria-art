@@ -388,14 +388,10 @@ h6 a {
 }
 .feature .mason-img {
   text-align: center;
-  border: 1px solid #ffeaab;
-  padding: 15px 15px;
-  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
-          box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
 }
 .feature .mason-img img {
   width: 100%;
-  height: 300px;
+  height: 270px;
   -o-object-fit: contain;
      object-fit: contain;
   margin-bottom: 6px;

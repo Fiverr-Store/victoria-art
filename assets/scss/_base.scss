@@ -2,9 +2,8 @@
 # base
 --------------------------------------------------------------*/
 
-
 body {
-  font-family: 'Lora', serif;
+	font-family: "Lora", serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 16px;
@@ -18,27 +17,23 @@ body {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-section{
-  overflow: hidden;
+section {
+	overflow: hidden;
 }
 
-
-
 a {
-  color: $primary-color;
+	color: $primary-color;
 	&:hover {
 		color: $primary-color;
-    text-decoration: underline;
+		text-decoration: underline;
 	}
 	text-decoration: none;
-
-
 }
 
 i,
 span,
 a {
-  display: inline-block;
+	display: inline-block;
 }
 
 audio,
@@ -55,7 +50,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-  line-height: 1.2;
+	line-height: 1.2;
 	color: $title-color;
 }
 p {

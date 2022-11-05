@@ -5,26 +5,26 @@
 .sec-t {
 	text-align: center;
 	h2 {
-		font-size: 40px;
+		font-size: 33px;
 		font-weight: 700;
 		margin-bottom: 44px;
 		@media only screen and (max-width: 1399px) {
-			margin-bottom: 35px;
+			margin-bottom: 30px;
 			font-size: 38px;
 		}
 		@media only screen and (max-width: 1199px) {
-			margin-bottom: 32px;
+			margin-bottom: 30px;
 			font-size: 36px;
 		}
 		@media only screen and (max-width: 991px) {
-			font-size: 32px;
+			font-size: 30px;
 		}
 		@media only screen and (max-width: 767px) {
-			font-size: 30px;
+			font-size: 28px;
 			margin-bottom: 30px;
 		}
 		@media only screen and (max-width: 482px) {
-			font-size: 26px;
+			font-size: 24px;
 		}
 		span {
 			font-weight: 400;
@@ -36,7 +36,7 @@
 # feature
 --------------------------------------------------------------*/
 .feature {
-
+  background-color: #FFF7E1;
 	padding: 60px 0px;
 	@media only screen and (max-width: 767px) {
 		padding: 30px 0px;
@@ -60,6 +60,19 @@
 			}
 		}
 	}
+  .art-text{
+    text-align: start;
+
+    span{
+      color:darken($color: $text-color, $amount: 10%);
+      display: block;
+      width: 100%;
+      font-size: 15px;
+      &:not(:last-child) {
+      margin-bottom: 6px;
+      }
+    }
+  }
 	.book-text {
 		padding-top: 6px;
     @media only screen and (max-width: 767px) {
@@ -69,10 +82,17 @@
 		h2 {
 			font-weight: 500;
 			font-size: 16px;
+      margin-bottom: 6px;
 		}
 		p {
 			font-size: 15px;
 			color: $primary-color;
+      a{
+        text-decoration: none;
+        display: inline-block;
+        color: $primary-color;
+        font-weight: 500;
+      }
 		}
     .form-select{
       margin-bottom: 8px;

@@ -249,8 +249,8 @@ h6 a {
 # new-hero
 --------------------------------------------------------------*/
 .new-hero {
-  padding-top: 120px;
-  padding-bottom: 50px;
+  padding-top: 90px;
+  padding-bottom: 20px;
   background-image: url("../images/hero/banner.png");
   background-size: cover;
   background-position: center;
@@ -258,13 +258,13 @@ h6 a {
 }
 @media only screen and (max-width: 991px) {
   .new-hero {
-    padding-top: 100px;
-    padding-bottom: 40px;
+    padding-top: 90px;
+    padding-bottom: 20px;
   }
 }
 @media only screen and (max-width: 767px) {
   .new-hero {
-    padding-top: 90px;
+    padding-top: 85px;
   }
 }
 .new-hero .hero-img {
@@ -454,7 +454,7 @@ h6 a {
 # slider-sec
 --------------------------------------------------------------*/
 .slider-sec {
-  padding: 60px 0px;
+  padding: 50px 0px 60px 0px;
 }
 @media only screen and (max-width: 767px) {
   .slider-sec {

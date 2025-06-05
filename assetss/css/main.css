@@ -331,6 +331,26 @@ h6 a {
 }
 
 /*--------------------------------------------------------------
+# page-here
+--------------------------------------------------------------*/
+.page-hero {
+  background-image: url("../images/hero/small-baner.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  margin-top: 60px;
+}
+@media only screen and (max-width: 767px) {
+  .page-hero {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin-top: 50px;
+  }
+}
+
+/*--------------------------------------------------------------
 # sec-t
 --------------------------------------------------------------*/
 .sec-t {
@@ -1000,4 +1020,3 @@ h6 a {
 .main-footer .social img {
   height: 30px;
 }
-/*# sourceMappingURL=main.css.map */
